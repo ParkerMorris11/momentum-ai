@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum AI — AI Consulting & Development</title>
+  <meta name="description" content="Momentum AI helps businesses identify, design, and implement AI-driven workflows and automation solutions. Based in Provo, Utah." />
+  <meta property="og:title" content="Momentum AI — AI Consulting & Development" />
+  <meta property="og:description" content="We build AI agents, voice interfaces, and automation systems that reduce overhead and sharpen decision-making." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Fonts: Clash Display (display) + Satoshi (body) from Fontshare -->
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="Momentum AI home">
+        <svg width="28" height="24" viewBox="0 0 52 44" fill="none" aria-hidden="true">
+          <path d="M 0 44 L 8 44 L 12.5 28 L 4.5 28 Z" fill="currentColor"/>
+          <path d="M 14 44 L 22 44 L 28.6 16 L 20.6 16 Z" fill="currentColor"/>
+          <path d="M 28 44 L 36 44 L 44.6 4 L 36.6 4 Z" fill="currentColor"/>
+        </svg>
+        <span class="nav__wordmark">Momentum AI</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav__cta">Get Started</a>
+      </nav>
+
+      <div class="nav__right">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobile-menu" aria-hidden="true">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Get Started</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow reveal">AI Consulting &amp; Development</p>
+        <h1 class="hero__headline reveal">
+          Build AI that actually<br/>
+          <em>moves the needle.</em>
+        </h1>
+        <p class="hero__sub reveal">We design and build AI agents, voice interfaces, and intelligent automations for businesses ready to work smarter — not just differently.</p>
+        <div class="hero__actions reveal">
+          <a href="#contact" class="btn btn--primary">Start a Project</a>
+          <a href="#work" class="btn btn--ghost">See Our Work</a>
+        </div>
+        <div class="hero__stats reveal">
+          <div class="stat">
+            <span class="stat__num">4+</span>
+            <span class="stat__label">AI Agents Deployed</span>
+          </div>
+          <div class="stat__divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Custom Builds</span>
+          </div>
+          <div class="stat__divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat__num">BYU</span>
+            <span class="stat__label">Provo, Utah</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">What We Do</span>
+          <h2>From strategy to deployment,<br/>we handle the full stack.</h2>
+        </div>
+
+        <div class="services__grid">
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636-.707.707M21 12h-1M4 12H3m3.343-5.657-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+            </div>
+            <h3>AI Strategy</h3>
+            <p>Identify the highest-leverage opportunities for AI in your workflow. We audit your operations and build a deployment roadmap that delivers real ROI.</p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 18.5A6.5 6.5 0 1 0 5.5 12H4M4 12l2-2M4 12l2 2"/>
+                <circle cx="12" cy="12" r="2.5"/>
+              </svg>
+            </div>
+            <h3>Voice &amp; Chat Agents</h3>
+            <p>AI-powered voice assistants and chat agents that handle scheduling, FAQs, and customer intake around the clock — without a human in the loop.</p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                <rect x="3" y="14" width="7" height="7" rx="1"/>
+                <path d="M17.5 14v3m0 0v3m0-3h-3m3 0h3"/>
+              </svg>
+            </div>
+            <h3>Workflow Automation</h3>
+            <p>Connect your existing tools — CRMs, calendars, email, data pipelines — and let intelligent agents handle the repetitive work automatically.</p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"/>
+              </svg>
+            </div>
+            <h3>Custom Development</h3>
+            <p>Full-stack AI solutions built from scratch. LLM integrations, RAG systems, data pipelines, internal tools — if you need it built, we build it right.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK / CASE STUDY -->
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Case Study</span>
+          <h2>Real builds. Real results.</h2>
+        </div>
+
+        <div class="case-study reveal">
+          <div class="case-study__meta">
+            <span class="case-study__tag">Voice Agent</span>
+            <span class="case-study__tag">Healthcare</span>
+          </div>
+          <div class="case-study__body">
+            <div class="case-study__text">
+              <h3>Dental Voice Agent</h3>
+              <p class="case-study__desc">A busy dental practice was losing patients to voicemail. We built a 24/7 AI voice agent that handles appointment scheduling, insurance questions, and office FAQs — in real time, over the phone.</p>
+              <ul class="case-study__results">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Handles inbound calls around the clock
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Books, reschedules, and confirms appointments
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Answers insurance and pricing questions live
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Zero missed calls converted to lost patients
+                </li>
+              </ul>
+              <div class="case-study__stack">
+                <span>Python</span>
+                <span>Claude API</span>
+                <span>Twilio</span>
+                <span>ElevenLabs</span>
+              </div>
+            </div>
+            <div class="case-study__visual">
+              <div class="case-study__mockup">
+                <div class="mockup__header">
+                  <div class="mockup__dot"></div>
+                  <div class="mockup__dot"></div>
+                  <div class="mockup__dot"></div>
+                  <span>Dental Voice Agent — Live Call</span>
+                </div>
+                <div class="mockup__body">
+                  <div class="mockup__line mockup__line--label">PATIENT</div>
+                  <div class="mockup__bubble mockup__bubble--patient">"Hi, I need to reschedule my cleaning for next week."</div>
+                  <div class="mockup__line mockup__line--label">MOMENTUM AI</div>
+                  <div class="mockup__bubble mockup__bubble--agent">
+                    <span class="mockup__typing-dot"></span>
+                    "Of course! I have openings on Tuesday at 2pm and Thursday at 10am. Which works better for you?"
+                  </div>
+                  <div class="mockup__status">
+                    <span class="mockup__pulse"></span> Live • Handling call 1 of 3 in queue
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work__more reveal">
+          <p>Building a similar business? Let's talk about your specific use case.</p>
+          <a href="#contact" class="btn btn--outline">Start a Conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container about__inner">
+        <div class="about__text reveal">
+          <span class="label">About</span>
+          <h2>Built by a builder,<br/>not a consultant.</h2>
+          <p>Momentum AI was founded by a BYU Information Systems student who got tired of watching businesses pay for AI strategy decks that never shipped. We skip the slides and go straight to working software.</p>
+          <p>Every engagement starts with your actual operations — your tools, your team, your bottlenecks. We build AI that integrates into what you already have, not a parallel system that lives on a separate tab nobody opens.</p>
+          <div class="about__badges">
+            <div class="badge">Full Stack Development</div>
+            <div class="badge">LLM Integration</div>
+            <div class="badge">Voice AI</div>
+            <div class="badge">Workflow Automation</div>
+            <div class="badge">Provo, Utah</div>
+          </div>
+        </div>
+        <div class="about__figure reveal">
+          <div class="about__card">
+            <div class="about__card-icon">
+              <svg width="40" height="34" viewBox="0 0 52 44" fill="none">
+                <path d="M 0 44 L 8 44 L 12.5 28 L 4.5 28 Z" fill="currentColor"/>
+                <path d="M 14 44 L 22 44 L 28.6 16 L 20.6 16 Z" fill="currentColor"/>
+                <path d="M 28 44 L 36 44 L 44.6 4 L 36.6 4 Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="about__card-name">Parker Morris</p>
+            <p class="about__card-title">Founder &amp; AI Consultant</p>
+            <p class="about__card-school">BYU Information Systems</p>
+            <div class="about__card-links">
+              <a href="https://linkedin.com/in/parker-morris11" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="https://github.com/ParkerMorris11" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="contact__inner reveal">
+          <div class="contact__text">
+            <span class="label label--inverse">Ready to Build?</span>
+            <h2>Let's find the right AI for your business.</h2>
+            <p>Every engagement starts with a 30-minute discovery call — no pitch deck, just a real conversation about what you're trying to accomplish.</p>
+            <a href="mailto:parkerqmorris@gmail.com" class="contact__email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6.5L22 7"/></svg>
+              parkerqmorris@gmail.com
+            </a>
+          </div>
+          <div class="contact__actions">
+            <a href="mailto:parkerqmorris@gmail.com?subject=Let%27s%20Build%20Something&body=Hi%20Parker%2C%0A%0AI%27d%20love%20to%20discuss%20an%20AI%20project." class="btn btn--primary btn--large">Book a Discovery Call</a>
+            <p class="contact__note">Typically respond within 24 hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <svg width="22" height="19" viewBox="0 0 52 44" fill="none" aria-hidden="true">
+          <path d="M 0 44 L 8 44 L 12.5 28 L 4.5 28 Z" fill="currentColor"/>
+          <path d="M 14 44 L 22 44 L 28.6 16 L 20.6 16 Z" fill="currentColor"/>
+          <path d="M 28 44 L 36 44 L 44.6 4 L 36.6 4 Z" fill="currentColor"/>
+        </svg>
+        <span>Momentum AI</span>
+      </div>
+      <p class="footer__copy">&copy; 2026 Momentum AI. Provo, Utah.</p>
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/parker-morris11" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ParkerMorris11" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:parkerqmorris@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
